@@ -265,6 +265,19 @@ body {
   line-height: 1.71;
 }
 
+/* specifics svg */
+.list-specifics .svg-specifics {
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bgc-icon-specifics);
+}
+
 /* inerests */
 
 .interests {
