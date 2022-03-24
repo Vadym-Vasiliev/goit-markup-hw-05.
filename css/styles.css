@@ -147,6 +147,10 @@ body {
   color: var(--accent);
 }
 
+.link-nav.current {
+  color: var(--accent);
+}
+
 /* auth */
 .flexbox-header .list-auth {
   display: flex;
