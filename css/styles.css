@@ -83,6 +83,7 @@ body {
   font-family: 'Roboto', sans-serif;
 
   letter-spacing: 0.03em;
+  padding-top: 80px;
 
   background-color: var(--bgc-main);
   color: var(--text-main);
@@ -102,6 +103,13 @@ body {
 /* header */
 
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+
+  background-color: var(--bgc-main);
   border-bottom: 1px solid var(--border-header);
 }
 
