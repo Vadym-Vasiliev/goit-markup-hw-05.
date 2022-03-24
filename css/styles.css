@@ -552,6 +552,10 @@ body {
   display: block;
 }
 
+.link-projects .img-projects {
+  width: 100%;
+}
+
 .content-card {
   padding: 20px 24px;
 }
