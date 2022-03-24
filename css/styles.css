@@ -97,6 +97,10 @@ body {
 
 /* header */
 
+.header {
+  border-bottom: 1px solid var(--border-header);
+}
+
 .flexbox-header {
   height: 80px;
   display: flex;
@@ -172,12 +176,16 @@ body {
 
 /* hero */
 .hero {
+  height: 600px;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: var(--bgc-hero-footer);
 }
 
 .hero .title-hero {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -188,15 +196,16 @@ body {
 }
 
 .hero .button-hero {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 10px 32px;
   min-width: 200px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 
   color: var(--text-btn);
   background-color: var(--accent);
