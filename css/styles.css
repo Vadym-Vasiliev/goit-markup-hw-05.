@@ -109,6 +109,8 @@ body {
 
 /* logo */
 .header .logo-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -123,6 +125,11 @@ body {
 
 /* nav-header */
 
+.flexbox-header .nav-header {
+  display: flex;
+  align-items: center;
+}
+
 .nav-header .list-nav {
   display: flex;
   margin-left: 93px;
@@ -135,9 +142,9 @@ body {
 /* same class */
 .list-nav .link-nav,
 .list-auth .link-auth {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -153,6 +160,19 @@ body {
 
 .link-nav.current {
   color: var(--accent);
+  position: relative;
+}
+
+.link-nav.current::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+
+  background-color: var(--accent);
 }
 
 /* auth */
@@ -178,6 +198,7 @@ body {
 .list-auth .link-auth {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .link-auth .svg-auth {
