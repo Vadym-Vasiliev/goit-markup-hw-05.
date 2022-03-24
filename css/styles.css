@@ -484,6 +484,50 @@ body {
   color: var(--accent);
 }
 
+/* footer svg */
+.all-footer {
+  display: flex;
+}
+
+.second-block {
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.second-block .text-footer {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--text-footer);
+}
+
+.second-block .list-footer {
+  display: flex;
+}
+
+.list-footer .item-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.list-footer .link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: var(--bgc-icon-footer);
+}
+
+.list-footer .link-footer:hover,
+.list-footer .link-footer:focus {
+  background-color: var(--accent);
+}
+
 /* PORTFOLIO */
 
 .projects {
