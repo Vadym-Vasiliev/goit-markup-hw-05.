@@ -661,6 +661,7 @@ body {
 
 .link-projects .img-projects {
   width: 100%;
+  display: block;
 }
 
 .content-card {
