@@ -369,3 +369,8 @@ body {
 .list-address .link-map {
   color: var(--text-footer);
 }
+
+.list-address .link-address:hover,
+.list-address .link-address:focus {
+  color: var(--accent);
+}
