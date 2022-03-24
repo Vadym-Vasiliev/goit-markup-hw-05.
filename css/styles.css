@@ -251,15 +251,33 @@ body {
 
 /* inerests */
 
+.interests {
+  padding-bottom: 94px;
+}
+
 /* same class */
 .interests .title-interests,
 .team .title-team {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 
   color: var(--text-second);
+}
+
+.interests .list-interests {
+  display: flex;
+  justify-content: center;
+}
+
+.list-interests .item-interests:not(:last-child) {
+  margin-right: 30px;
+}
+
+.list-interests .img-interests {
+  height: 100%;
 }
 
 /* team */
