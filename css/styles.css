@@ -166,6 +166,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--text-second);
 }
 
@@ -203,6 +205,8 @@ body {
 }
 
 .list-auth .link-auth {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--text-main);
 }
 
@@ -416,6 +420,9 @@ body {
   align-items: center;
   border-radius: 50%;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--icon-color-team-clients);
 }
 
@@ -483,6 +490,9 @@ body {
   width: 170px;
   height: 92px;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--icon-color-team-clients);
 }
 
@@ -528,6 +538,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--link-footer);
 }
@@ -577,6 +589,8 @@ body {
   height: 44px;
   border-radius: 50%;
 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   background-color: var(--bgc-icon-footer);
 }
 
@@ -617,6 +631,10 @@ body {
   font-size: 16px;
   line-height: 1.62;
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--text-second);
   background-color: var(--bgc-btn-portfolio);
 }
@@ -651,6 +669,8 @@ body {
 
 .list-projects .link-projects {
   display: block;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-projects .link-projects:hover,
