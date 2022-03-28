@@ -366,8 +366,16 @@ body {
   align-items: center;
   justify-content: center;
 
-  color: var(--hidden-text-interests);
   background-color: var(--bgc-hidden-interests);
+}
+
+.hidden-img .text-interests {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--hidden-text-interests);
 }
 
 /* team */
